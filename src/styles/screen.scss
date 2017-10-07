@@ -10,4 +10,142 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  // background-color: #2c3e50;
+  // animation-name: cycleskycolors;
+  // animation-duration: 5s;
+  // animation-iteration-count: infinite;
+  // animation-timing-function: linear;
+  // animation-delay: 0;
 }
+
+.container {
+  margin: 4em;
+  text-align: center;
+
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 36px;
+    // opacity: 0;
+  }
+}
+
+.loader {
+  border: 16px solid #bdc3c7;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-top-color: #1abc9c;
+  border-bottom-color: #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// .box {
+//   width: 100px;
+//   background-color: orange;
+//   line-height: 100px;
+//   text-align: center;
+//   margin: auto;
+// }
+//
+// .whatUpDog {
+//   text-align: center;
+// }
+//
+// @keyframes rainbowtext {
+//   0% {
+//     color: red;
+//     font-size: 20px;
+//   }
+//
+//   25% {
+//     color: orange;
+//   }
+//
+//   50% {
+//     color: yellow;
+//     font-size: 80px;
+//   }
+//
+//   75% {
+//     color: green;
+//   }
+//
+//   100% {
+//     color: blue;
+//     font-size: 20px;
+//   }
+// }
+//
+// h1 {
+//   animation-name: rainbowtext;
+//   animation-duration: 3s;
+//   animation-timing-function: linear;
+//   animation-delay: 0s;
+//   animation-iteration-count: infinite;
+// }
+//
+// .grass {
+//   background: green;
+//   height: 600px;
+//   width: 100%;
+//   position: absolute;
+// }
+//
+// .sun {
+//   background: #f1c40f;
+//   width: 200px;
+//   height: 200px;
+//   border-radius: 50%;
+//   animation-name: sunmotion;
+//   animation-iteration-count: infinite;
+// }
+//
+// @keyframes cycleskycolors {
+//   0% {
+//     background-color: black;
+//   }
+//
+//   10% {
+//     background-color: pink;
+//   }
+//
+//   30% {
+//     background-color: blue;
+//   }
+//
+//   70% {
+//     background-color: blue;
+//   }
+//
+//   90% {
+//     background-color: black;
+//   }
+//
+//   100% {
+//     background-color: pink;
+//   }
+// }
+//
+// @keyframes sunmotion {
+//   0% {
+//     transform: translate(0, 0);
+//   }
+//
+//   100% {
+//     transform: translate(1000px, 0);
+//   }
+// }
